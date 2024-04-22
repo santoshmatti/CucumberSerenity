@@ -1,0 +1,10 @@
+------------------//Scrolling to specific element, all the below working
+public static void moveToElement(WebDriver wd, WebElementFacade element) {
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        //js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+        js.executeScript("arguments[0].scrollIntoView();", element);
+        //js.executeScript("window.scrollBy(0,1000)", "");
+       // js.executeScript("window.scrollBy(0,1000)");
+    }
+
+----------------------

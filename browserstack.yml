@@ -1,0 +1,10 @@
+userName: santosh_5PSipC
+accessKey: 4gzobAPYp7tqKaZki7TK
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
+browserstackLocal: false
+buildName: browserstack-new build
+projectName: BrowserStack Sample project
